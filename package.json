@@ -1,0 +1,17 @@
+{
+  "name": "countrystateapi",
+  "version": "1.0.0",
+  "description": "API by AraeneaCLI",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "author": "AraeneaCLI",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
