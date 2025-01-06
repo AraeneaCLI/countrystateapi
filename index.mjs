@@ -56,5 +56,10 @@ app.get("/countries/:countryCode/states/:stateCode/cities", async (req, res) => 
 });
 
 app.listen(PORT, () => {
-  console.log(`AraeneaCLI Country State City API`);
+  console.log(`localhost:${PORT}`);
+});
+
+
+app.get('/', (req, res) => {
+  res.send('AraeneaCLI Country State City API');
 });
